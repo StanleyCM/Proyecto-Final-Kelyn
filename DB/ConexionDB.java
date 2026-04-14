@@ -8,9 +8,9 @@ import java.sql.SQLException;
 public class ConexionDB {
 
     // Conexion remota ITLA - Aiven Cloud
-	private static final String URL = "jdbc:mysql://almacenitla-db-itla-3837.e.aivencloud.com:25037/almacenitlafinal?useSSL=true&serverTimezone=UTC";
-	private static final String USUARIO = "avnadmin";
-	private static final String PASSWORD = "PASSWORD_AQUI";
+    private static final String URL      = "jdbc:mysql://almacenitla-db-itla-3837.e.aivencloud.com:25037/almacenitlafinal?useSSL=true&serverTimezone=UTC";
+    private static final String USUARIO  = "avnadmin";
+    private static final String PASSWORD = "PASSWORD_AQUI";
 
     // Unica instancia de la clase
     private static ConexionDB instance;

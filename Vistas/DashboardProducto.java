@@ -77,8 +77,8 @@ public class DashboardProducto extends JFrame {
         });
 
         JScrollPane scrollPane = new JScrollPane(table);
-        scrollPane.setFont(new Font("Rockwell", Font.PLAIN, 16));
         scrollPane.setBorder(null);
+        scrollPane.setFont(new Font("Rockwell", Font.PLAIN, 16));
         scrollPane.setBounds(68, 79, 642, 295);
         contentPane.add(scrollPane);
 

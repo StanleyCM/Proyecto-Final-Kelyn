@@ -52,7 +52,6 @@ public class ProductoService implements IProductoService {
         return productoDao.listarTodos();
     }
 
-    // 🔥 ESTE ES EL QUE TE FALTABA
     @Override
     public Producto obtenerPorId(int id) {
         if (id <= 0)
