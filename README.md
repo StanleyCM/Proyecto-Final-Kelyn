@@ -35,4 +35,5 @@ Codigo que debe cambiar:
 <img width="1199" height="72" alt="image" src="https://github.com/user-attachments/assets/54413437-809c-472a-b86e-0ced58fa2c64" />
 
 
-
+##Autor
+Stanley Camacho Abreu (2025-2271)
