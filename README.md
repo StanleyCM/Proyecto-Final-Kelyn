@@ -18,9 +18,6 @@ GitHub bloquea automaticamente credenciales reales dentro del codigo, ya que pue
 
 Por esta razon, en el archivo de conexion se utiliza un valor de referencia en lugar de la contraseña real.
 
-<img width="955" height="363" alt="image" src="https://github.com/user-attachments/assets/60109913-2ff9-43d6-8f5b-7433a5b89786" />
-
-
 ---
 
 ## Credenciales de acceso a la BD
