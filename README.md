@@ -1,36 +1,31 @@
-# Proyecto Final Kelyn Tejada - Sistema gestor de Almacen y Usuarios
+# Sistema Gestor de Almacén y Usuarios
 
-## Descripcion
-Este proyecto consiste en un sistema de gestion de almacen y usuarios desarrollado en Java, utilizando conexion a base de datos MySQL remota (Aiven Cloud).
+## Descripción
 
-El sistema permite manejar:
+Este proyecto consiste en un sistema de gestión de almacén y usuarios desarrollado en Java, con conexión a una base de datos MySQL remota alojada en Aiven Cloud.
+
+El sistema permite manejar las principales operaciones relacionadas con el control de productos, usuarios e inventario dentro de un almacén.
+
+Entre sus funcionalidades principales se encuentran:
+
 - Registro de productos
-- Gestion de usuarios
+- Gestión de usuarios
 - Control de inventario
+- Conexión a base de datos remota
+- Administración básica de información del almacén
 
 ---
 
-## Conexion a la Base de Datos
+## Conexión a la Base de Datos
 
-Por motivos de seguridad, la contraseña de la base de datos NO se encuentra directamente en el codigo fuente.
+Por motivos de seguridad, la contraseña de la base de datos no se encuentra directamente dentro del código fuente.
 
-GitHub bloquea automaticamente credenciales reales dentro del codigo, ya que pueden ser utilizadas por terceros.
+GitHub puede bloquear o marcar el repositorio cuando detecta credenciales reales dentro del código, ya que estas pueden ser utilizadas por terceros sin autorización.
 
-Por esta razon, en el archivo de conexion se utiliza un valor de referencia en lugar de la contraseña real.
+Por esta razón, en el archivo de conexión se utiliza un valor de referencia en lugar de la contraseña real.
 
 ---
-
-## Credenciales de acceso a la BD
-
-Para ejecutar el proyecto correctamente, utilizar las siguientes credenciales dentro del archivo (DB/ConexionBD.java):
-
-private static final String URL = "jdbc:mysql://almacenitla-db-itla-3837.e.aivencloud.com:25037/almacenitlafinal?useSSL=true&serverTimezone=UTC"; <br>
-private static final String USUARIO = "avnadmin"; <br>
-private static final String PASSWORD = "AVNS_pPa2xcIg1Ubj0zcsoMg"; <br>
-
-Codigo que debe cambiar:
-<img width="1199" height="72" alt="image" src="https://github.com/user-attachments/assets/54413437-809c-472a-b86e-0ced58fa2c64" />
-
 
 ## Autor
-Stanley Camacho Abreu (2025-2271)
+
+Stanley Camacho Abreu  
