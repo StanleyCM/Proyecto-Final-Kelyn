@@ -68,16 +68,6 @@ Cada producto contiene:
 * Precio.
 * Cantidad disponible.
 
-## Capturas de pantalla
-
-<div align="center">
-
-<img src="images/Captura%20de%20pantalla%202026-03-30%20222102.png" alt="Interfaz del sistema" width="48%">
-
-<img src="images/Captura%20de%20pantalla%202026-03-30%20222555.png" alt="Panel de administración" width="48%">
-
-</div>
-
 ## Arquitectura
 
 El proyecto utiliza una arquitectura por capas inspirada en MVC:
